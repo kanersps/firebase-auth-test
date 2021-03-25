@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "test-31039": {
+      "hosting": {
+        "FirebaseAuthTest": [
+          "test-31039"
+        ]
+      }
+    }
+  }
+}

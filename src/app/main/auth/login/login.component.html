@@ -1,0 +1,7 @@
+<p> Authenticating: {{ isAuthenticating$ | async }} </p>
+
+<p> Error: {{ error$ | async }} </p>
+<p> Authenticated: {{ authenticated$ | async }} </p>
+<p> E-Mail: {{ email$ | async }} </p>
+
+<button (click)="login()">Test</button>
